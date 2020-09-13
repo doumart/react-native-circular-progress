@@ -1,0 +1,38 @@
+{
+  "name": "react-native-circular-gradient-progress",
+  "version": "1.0.0",
+  "description": "Display progress in a circle fashion",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doumart/react-circular-progress.git"
+  },
+  "keywords": [
+    "circular",
+    "progress",
+    "progression",
+    "svg",
+    "circle",
+    "Gradient"
+  ],
+  "author": "Dominique Richard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doumart/react-circular-progress/issues"
+  },
+  "homepage": "https://github.com/doumart/react-circular-progress#readme",
+  "devDependencies": {
+    "@types/react-native": "^0.63.18",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-native": "^0.63.2",
+    "react-native-svg": "^12.1.0"
+  }
+}
