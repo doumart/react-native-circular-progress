@@ -34,7 +34,7 @@ const GradientCircularProgress: React.FunctionComponent<GradientCircularProgress
 
   return (
     <View
-      style={{ width: `${size}px`, height: `${size}px`, }}
+      style={{ width: size, height: size, position: "relative" }}
     >
       <Svg viewBox={`0 0 ${WIDTH} ${WIDTH}`}>
         <Defs>

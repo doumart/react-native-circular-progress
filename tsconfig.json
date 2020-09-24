@@ -5,11 +5,10 @@
       "es6"
     ],
     "moduleResolution": "node",
-    "noEmit": true,
     "target": "ES2019",
     "module": "commonjs",
     "esModuleInterop": true,
-    "baseUrl": ".",
+    "baseUrl": "src",
     "jsx": "react",
     "declaration": true,
     "outDir": "./lib",
@@ -17,9 +16,6 @@
     "typeRoots": [
       "node_modules/@types"
     ],
-    "types": [
-      "react"
-    ]
   },
   "include": [
     "src"
